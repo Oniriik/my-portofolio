@@ -1,23 +1,27 @@
 <template>
   <div class="container">
-    <img
-      src="https://i.ibb.co/zRFPzCj/profile-min.png"
-      alt="myPhoto"
-      class="myPhoto"
-    />
-    <div class="type">
-      <p class="intro">
-        {{ typeValue1 }} <span class="name">{{ typeValue2 }}</span
-        >{{ typeValue3 }}
+    <div class="profile-infos">
+      <img
+        src="https://i.ibb.co/zRFPzCj/profile-min.png"
+        alt="myPhoto"
+        class="myPhoto"
+      />
+      <div class="type">
+        <p class="intro">
+          {{ typeValue1 }} <span class="name">{{ typeValue2 }}</span
+          >{{ typeValue3 }}
+        </p>
+        <span v-if="typeStatus" class="cursor" :class="{ typing: !typeStatus }"
+          >&nbsp;</span
+        >
+      </div>
+      <p class="bio">
+        Curious and passionate about technology, I like to create and discover
+        new things.<br />The taste of challenge and adaptability are my strong
+        points.
       </p>
-      <span v-if="typeStatus" class="cursor" :class="{ typing: !typeStatus }"
-        >&nbsp;</span
-      >
     </div>
-    <p class="bio">
-      Curious and passionate about technology, I like to create and discover new
-      things.<br />The taste of challenge and adaptability are my strong points.
-    </p>
+
     <mouseScrollAnim />
   </div>
 </template>
@@ -78,7 +82,7 @@ export default {
           }, 500);
         }, 1000);
       }
-    }
+    },
   },
   created() {
     setTimeout(this.typeText1, 3000);
@@ -115,14 +119,20 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.profile-infos{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  gap: 1rem;
 }
 .myPhoto {
   border-radius: 50%;
   width: 20vw;
-  margin: 2rem 0;
   transition-duration: 0.5s;
 }
 .intro {

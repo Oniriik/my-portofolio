@@ -60,7 +60,6 @@ export default {
     opacity: 0;
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
     transform: scale(0.2);
 }
 
