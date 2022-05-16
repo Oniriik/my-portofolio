@@ -45,6 +45,9 @@ export default {
   scroll-snap-align: start;
   padding: 1em;
 }
+.infos{
+  height: auto;
+}
 .home{
   background-image: url('@/assets/img/color2.png');
   background-repeat: no-repeat;
@@ -66,7 +69,7 @@ export default {
       background-size: 70vh;
     }
     .infos{
-      height: 155vh;
+      height: auto;
     }
   }
 
