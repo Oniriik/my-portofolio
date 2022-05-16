@@ -66,24 +66,17 @@ export default {
   justify-self: center;
 }
 .project-infos {
-  padding: 0 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px;
 }
 .project > img {
   aspect-ratio: 2/1;
   width: 100%;
-  filter: blur(3px);
-  transition-duration: 0.5s;
 }
 .project:hover {
   transform: scale(1.03);
   filter: none;
   cursor: pointer;
   transition-duration: 0.5s;
-}
-.project:hover img {
-  filter: none;
-  transition: 0.5s;
 }
 
 .project-title {

@@ -46,7 +46,7 @@ export default {
   padding: 1em;
 }
 .infos{
-  height: auto;
+  min-height: 100vh;
 }
 .home{
   background-image: url('@/assets/img/color2.png');

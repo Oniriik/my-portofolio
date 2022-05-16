@@ -22,14 +22,14 @@
       title="Allo'Cinoche"
       img="https://i.ibb.co/znQrRwH/allocinoche.png"
       stack="ExpressJs, Ejs, Strapi API"
-      desc="Website that reference movies/series. Users can add items via + button. It use movie-database-alternative to add new content."
+      desc="Website that reference movies/series. Users can add items via plus button. It use movie-database-alternative to add new content."
       href="https://github.com/Oniriik/allocinoche"
       accentColor="#8E3248"
       secondColor="#F5C056"
     />
     <ElementProject
       title="La boite à message"
-      img="https://i.ibb.co/tCXMwj4/letter.jpg"
+      img="https://i.ibb.co/N7dx4v9/letter.png"
       stack="Python, Selenium, Tweepy, Strapi API"
       desc="Send message anonymously on Instagram and twitter"
       href="https://github.com/Oniriik/laboiteamessage"
