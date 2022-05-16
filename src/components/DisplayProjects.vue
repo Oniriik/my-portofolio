@@ -30,7 +30,7 @@
     <ElementProject
       title="La boite à message"
       img="https://i.ibb.co/N7dx4v9/letter.png"
-      stack="Python, Selenium, Tweepy, Strapi API"
+      stack="Python, Selenium, Strapi API"
       desc="Send messages anonymously on Instagram and twitter"
       href="https://github.com/Oniriik/laboiteamessage"
       accentColor="#DA427D"

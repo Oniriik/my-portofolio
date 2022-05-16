@@ -103,7 +103,11 @@ export default {
 }
 
 @media (max-width: 1000px) {
-
+    .project-stack {
+      font-size: 0.5rem;
+      padding: 2px 6px;
+      color: white;
+    }
     .project {
     width: 350px;
     }
