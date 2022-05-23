@@ -37,6 +37,15 @@
       secondColor="#8ad890"
     />
     <ElementProject
+      title="Simple Weather App"
+      img="https://i.ibb.co/FWncRNJ/Screenshot-6.png"
+      stack="Vuejs v3, Tailwindcss"
+      desc="Simple weather app based on openweathermap.org api"
+      href="https://github.com/Oniriik/simple-weather-app"
+      accentColor="#adc7da"
+      secondColor="#9b8e8f"
+    />
+    <ElementProject
       title="My portofolio"
       img="https://i.ibb.co/Vj2khvH/folio.png"
       stack="Vuejs v3"
@@ -60,6 +69,7 @@ export default {
 
 <style>
 .projects{
+  color: #adc7da;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
